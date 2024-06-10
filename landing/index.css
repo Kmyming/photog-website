@@ -364,6 +364,70 @@ padding-bottom: 3em;
     transition: all 0.4s;
 
 }
+
+/*photopage introduction*/
+#photography{
+    text-align: center;
+    margin: auto;
+    padding-top: 9%;
+}
+/*photopage cover*/
+#photocovercontainer{
+display: grid;
+grid-template-columns: auto auto;
+grid-template-rows: auto auto auto;
+grid-column-gap: 0;
+grid-row-gap: 0;
+}
+.photocover{
+    width: 100vh;
+    text-align: center;
+    margin: auto;
+} .photocoverimg:hover{
+    transition: all 0.4s;
+    opacity: 70%;
+
+}
+.photocoverimg{
+    width: 100%;
+}
+#sports{
+    grid-column: 1;
+    grid-row: 1;
+    margin-top: 4.25rem;
+    margin-left: 3.25rem;
+}
+#concert{
+    grid-column: 2;
+    grid-row: 1;
+    margin-top: 4.25rem;
+    margin-right: 3.25rem;
+}
+#events{
+    grid-column: 1;
+    grid-row: 2;
+    margin-left: 3.25rem;
+}
+#street{
+    grid-column: 2;
+    grid-row: 2;
+    margin-right: 3.25rem;
+}
+#urban{
+    grid-column: 1;
+    grid-row: 3;
+    margin-left: 3.25rem;
+}
+#nature{
+    grid-column: 2;
+    grid-row: 3;
+    margin-right: 3.25rem;
+}
+.photocovertitle{
+    font-size: 15px;
+    padding: 2rem;
+}
+
 /*footer page*/
 .footer{
     display: grid;
@@ -400,10 +464,3 @@ font-size: 20px;
         transition: all 0.4s;
         font-size: 3.5em;
      }
-
-/*photopage introduction*/
-#photography{
-    text-align: center;
-    margin: auto;
-    padding-top: 8%;
-}
